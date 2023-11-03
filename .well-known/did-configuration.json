@@ -1,0 +1,61 @@
+{
+  "@context": [
+    "https://w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/x25519-2019/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2018/v1",
+    "https://w3id.org/security/bbs/v1"
+  ], 
+  "id": "did:web:anissprp.github.io",
+  "authentication": [
+    "did:web:anissprp.github.io#7G27urgXs3"
+  ], 
+  "assertionMethod": [
+    "did:web:anissprp.github.io#z12Kvqs1",
+    "did:web:anissprp.github.io#7G27urgXs3",
+    "did:web:anissprp.github.io#21FXT5z8oE"
+  ], 
+  "capabilityDelegation": [
+    "did:web:anissprp.github.io#z12Kvqs1",
+    "did:web:anissprp.github.io#7G27urgXs3",
+    "did:web:anissprp.github.io#21FXT5z8oE"
+  ], 
+  "capabilityInvocation": [
+    "did:web:anissprp.github.io#z12Kvqs1",
+    "did:web:anissprp.github.io#7G27urgXs3",
+    "did:web:anissprp.github.io#21FXT5z8oE"
+  ], 
+  "verificationMethod": [
+    {
+      "id": "did:web:anissprp.github.io#z12Kvqs1",
+      "controller": "did:web:anissprp.github.io",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "9rvLePCDziAkQz-iM3rw4xp3ZEHOAmNh-WNK8kjeB9c",
+        "y": "oO0Z-Ow7x5oWEh3SDw6_un-nNm70rPX3zyX7FgupfLA"
+      }
+    }, 
+    {
+      "id": "did:web:anissprp.github.io#7G27urgXs3",
+      "controller": "did:web:anissprp.github.io",
+      "type": "Ed25519VerificationKey2018",
+      "publicKeyBase58": "7G27urgXs3FYj7SZjJvMGYindByRW1ufNqAGempkRHs7"
+    },
+    {
+      "id": "did:web:anissprp.github.io#21FXT5z8oE",
+      "controller": "did:web:anissprp.github.io",
+      "type": "Bls12381G2Key2020",
+      "publicKeyBase58": "21FXT5z8oEQpi82Bp4qwJQQ9R7MSQ8862AL6dhF3XdoEXA7acFnJYEzzD3aph7EU145UpTfEZqNGHtPNGmNP4bhusHiucHV5zhC9RYRUMEAsVfbFYKekK6PosEKDrZ5eh44A"
+    }
+  ],
+  "keyAgreement": [
+    {
+      "id": "did:web:anissprp.github.io#2P5Nwhhwwf",
+      "controller": "did:web:anissprp.github.io",
+      "type": "X25519KeyAgreementKey2019",
+      "publicKeyBase58": "2P5NwhhwwfTUSATMY2KsM5XDhYUWGxo6DS1aRyap4oXY"
+    }
+  ]
+}
