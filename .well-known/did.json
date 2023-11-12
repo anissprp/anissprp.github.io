@@ -1,61 +1,85 @@
 {
-  "@context": [
-    "https://w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/x25519-2019/v1",
-    "https://w3id.org/security/suites/jws-2020/v1",
-    "https://w3id.org/security/suites/ed25519-2018/v1",
-    "https://w3id.org/security/bbs/v1"
-  ], 
-  "id": "did:web:anissprp.github.io",
-  "authentication": [
-    "did:web:anissprp.github.io#7G27urgXs3"
-  ], 
-  "assertionMethod": [
-    "did:web:anissprp.github.io#z12Kvqs1",
-    "did:web:anissprp.github.io#7G27urgXs3",
-    "did:web:anissprp.github.io#21FXT5z8oE"
-  ], 
-  "capabilityDelegation": [
-    "did:web:anissprp.github.io#z12Kvqs1",
-    "did:web:anissprp.github.io#7G27urgXs3",
-    "did:web:anissprp.github.io#21FXT5z8oE"
-  ], 
-  "capabilityInvocation": [
-    "did:web:anissprp.github.io#z12Kvqs1",
-    "did:web:anissprp.github.io#7G27urgXs3",
-    "did:web:anissprp.github.io#21FXT5z8oE"
-  ], 
-  "verificationMethod": [
-    {
-      "id": "did:web:anissprp.github.io#z12Kvqs1",
-      "controller": "did:web:anissprp.github.io",
-      "type": "JsonWebKey2020",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "P-256",
-        "x": "9rvLePCDziAkQz-iM3rw4xp3ZEHOAmNh-WNK8kjeB9c",
-        "y": "oO0Z-Ow7x5oWEh3SDw6_un-nNm70rPX3zyX7FgupfLA"
+  "did": "did:web:anissprp.github.io", 
+  "localMetadata": {
+    "keys": [
+      {
+        "kmsKeyId": "3b78d553-ce6c-471b-97c5-51018d72b762",
+        "didDocumentKeyId": "did:web:anissprp.github.io#z12Kvqs1"
+      },
+      {
+        "kmsKeyId": "5e12225a-564b-4801-b69b-6d0e62de6349", 
+        "didDocumentKeyId": "did:web:anissprp.github.io#7G27urgXs3"
+      }, 
+      {
+        "kmsKeyId": "f2f92f9c-7443-4780-8570-e273d9f5cbf2",
+        "didDocumentKeyId": "did:web:anissprp.github.io#21FXT5z8oE"
+      },
+      {
+        "kmsKeyId": "79ffd83d-6c93-4c34-9f57-657d197824ee",
+        "didDocumentKeyId": "did:web:anissprp.github.io#2P5Nwhhwwf"
       }
-    }, 
-    {
-      "id": "did:web:anissprp.github.io#7G27urgXs3",
-      "controller": "did:web:anissprp.github.io",
-      "type": "Ed25519VerificationKey2018",
-      "publicKeyBase58": "7G27urgXs3FYj7SZjJvMGYindByRW1ufNqAGempkRHs7"
-    },
-    {
-      "id": "did:web:anissprp.github.io#21FXT5z8oE",
-      "controller": "did:web:anissprp.github.io",
-      "type": "Bls12381G2Key2020",
-      "publicKeyBase58": "21FXT5z8oEQpi82Bp4qwJQQ9R7MSQ8862AL6dhF3XdoEXA7acFnJYEzzD3aph7EU145UpTfEZqNGHtPNGmNP4bhusHiucHV5zhC9RYRUMEAsVfbFYKekK6PosEKDrZ5eh44A"
+    ],
+    "registered": 1698949596231,
+    "initialDidDocument": {
+      "id": "did:web:anissprp.github.io",
+      "@context": [
+        "https://w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/x25519-2019/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://w3id.org/security/suites/ed25519-2018/v1",
+        "https://w3id.org/security/bbs/v1"
+      ],
+      "keyAgreement": [
+        {
+          "id": "did:web:anissprp.github.io#2P5Nwhhwwf",
+          "type": "X25519KeyAgreementKey2019",
+          "controller": "did:web:anissprp.github.io",
+          "publicKeyBase58": "2P5NwhhwwfTUSATMY2KsM5XDhYUWGxo6DS1aRyap4oXY"
     }
-  ],
-  "keyAgreement": [
-    {
-      "id": "did:web:anissprp.github.io#2P5Nwhhwwf",
-      "controller": "did:web:anissprp.github.io",
-      "type": "X25519KeyAgreementKey2019",
-      "publicKeyBase58": "2P5NwhhwwfTUSATMY2KsM5XDhYUWGxo6DS1aRyap4oXY"
+      ],
+      "authentication": [
+        "did:web:anissprp.github.io#7G27urgXs3"
+      ],
+      "assertionMethod": [
+        "did:web:anissprp.github.io#z12Kvqs1",
+        "did:web:anissprp.github.io#7G27urgXs3",
+        "did:web:anissprp.github.io#21FXT5z8oE"
+      ], 
+      "verificationMethod": [
+        {
+          "id": "did:web:anissprp.github.io#z12Kvqs1",
+          "type": "JsonWebKey2020",
+          "controller": "did:web:anissprp.github.io",
+          "publicKeyJwk": {
+            "x": "9rvLePCDziAkQz-iM3rw4xp3ZEHOAmNh-WNK8kjeB9c",
+            "y": "oO0Z-Ow7x5oWEh3SDw6_un-nNm70rPX3zyX7FgupfLA",
+            "crv": "P-256", 
+	    "kty": "EC"
+          }
+        },
+        {
+          "id": "did:web:anissprp.github.io#7G27urgXs3",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:web:anissprp.github.io", 
+          "publicKeyBase58": "7G27urgXs3FYj7SZjJvMGYindByRW1ufNqAGempkRHs7"
+        },
+        {
+          "id": "did:web:anissprp.github.io#21FXT5z8oE",
+          "type": "Bls12381G2Key2020",
+          "controller": "did:web:anissprp.github.io",
+          "publicKeyBase58": "21FXT5z8oEQpi82Bp4qwJQQ9R7MSQ8862AL6dhF3XdoEXA7acFnJYEzzD3aph7EU145UpTfEZqNGHtPNGmNP4bhusHiucHV5zhC9RYRUMEAsVfbFYKekK6PosEKDrZ5eh44A"
+        }
+      ],
+      "capabilityDelegation": [
+        "did:web:anissprp.github.io#z12Kvqs1",
+        "did:web:anissprp.github.io#7G27urgXs3", 
+	    "did:web:anissprp.github.io#21FXT5z8oE"
+      ],
+      "capabilityInvocation": [
+        "did:web:anissprp.github.io#z12Kvqs1",
+        "did:web:anissprp.github.io#7G27urgXs3",
+        "did:web:anissprp.github.io#21FXT5z8oE"
+      ]
     }
-  ]
+  }
 }
