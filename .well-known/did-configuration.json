@@ -1,0 +1,22 @@
+{
+  "@context":[
+    "https://www.w3.org/2018/credentials/v1",
+    "https://identity.foundation/.well-known/contexts/did-configuration-v0.2.jsonld",
+	"https://w3id.org/security/bbs/v2"
+  ],
+  "type":[
+    "VerifiableCredential",
+    "DomainLinkageCredential"
+  ],
+  "issuer":"did:web:anissprp.github.io",
+  "issuanceDate":"2023-11-03T18:27:43.126Z",
+  "credentialSubject":{
+    "id":"did:web:anissprp.github.io",
+    "origin":"anis-sprp-cbwjtw.vii.au01.mattr.global"
+  },
+  "proof":{
+    "type":"BbsSignature2022",              "proofValue":"NBqpDXkEdxCsIgFkIB6vioPn6dBwjoJJ+wClKC1zay641t/DrYbyCc4c4FgWR6f2Nl3wIuWyqBiNRnjujXf5baK7NW4zbuEbXfOALC2EIwJi8qjLuSgUO26o40sJlQVUdOtHN3Z9E9ujc8p4y6NBng==",
+    "proofPurpose":"assertionMethod",
+    "verificationMethod":"did:web:anissprp.github.io#21FXT5z8oE"
+  }
+}
