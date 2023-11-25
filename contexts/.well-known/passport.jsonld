@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+   
+    "PassportCredential": {
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "Passport",
+        "givenName": "https://schema.org/givenName",
+        "familyName": "https://schema.org/familyName",
+        "documentNumber": "http://schema.org/identifier",
+        "dateOfExpiry": "http://schema.org/expires",
+        "issuingState": "http://schema.org/name"
+      }
+    }
+  }
+}
+</script>
